@@ -16,7 +16,7 @@ body {
   flex-direction: column;
 }
 
-/* sections */
+/* default settings to sections */
 
 section {
   position: relative;
@@ -29,14 +29,38 @@ section {
   font-size: 1rem;
 }
 
-.hero {
-  text-align: left;
-  padding: 14rem 0 25rem;
+/* input settings */
+.input-section {
+  flex: none;
   background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+  font-weight: 800;
+  color: white;
 }
 
-#count-el {
-  font-style: normal;
-  font-size: 48px;
+.input-section h1 {
+  font-size: 22px;
+}
+
+.input-section #count-el {
+  max-width: 50%;
+  margin: 0 auto;
   text-align: center;
+  font-weight: 700;
+  line-height: 26px;
+  font-size: 44px;
+  color: white;
+  background: transparent;
+  outline: none;
+
+}
+
+/* results */
+.results-section {
+  flex: auto;
+  font-size: 14px;
+  line-height: 5px;
+}
+
+.results-section p {
+  font-size: 20px;
 }

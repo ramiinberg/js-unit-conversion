@@ -16,11 +16,15 @@ const METERFEET = 3.28084
 const GALLONSLITERS = 3.785541
 const KGPOUNDS = 2.20462
 
-function convert () {
+function handleInput () {
   value = countEl.value
 
-  updateValues(value)
-  console.log('test')
+  if(value == "") {
+    updateValues(0)
+  }
+  else {
+    updateValues(value)
+  }
 }
 
 function updateValues(value) {
@@ -55,4 +59,4 @@ function updateValues(value) {
 }
 
 updateValues(20)
-countEl.addEventListener("input", convert)
+countEl.addEventListener("input", handleInput)
