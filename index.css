@@ -22,11 +22,8 @@ section {
   position: relative;
   padding: 3rem;
   display: flex;
-  align-content: center;
-  justify-content: center;
   flex-direction: column;
   text-align: center;
-  font-size: 1rem;
 }
 
 /* input settings */
@@ -55,12 +52,17 @@ section {
 }
 
 /* results */
-.results-section {
+.result-section {
   flex: auto;
   font-size: 14px;
   line-height: 5px;
 }
 
-.results-section p {
-  font-size: 20px;
+.result-section p {
+  color: aquamarine;
+}
+
+.result-section span {
+  font-weight: bold;
+  color: white;
 }
