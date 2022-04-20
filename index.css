@@ -18,6 +18,17 @@ body {
 
 /* sections */
 
+section {
+  position: relative;
+  padding: 3rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1rem;
+}
+
 .hero {
   text-align: left;
   padding: 14rem 0 25rem;
