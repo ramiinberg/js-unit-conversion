@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>Unit Conversion</title>
+    <link href="./index.css" rel="stylesheet">
   </head>
   <body>
-    <section>
-      <h1>Metric/Imperial unit conversion</h1>
-      <span id="count-el">20</span>
-    </section>
-    <section>
-      <h2>Length (Meter/feet)</h2>
-      <p>
-        <span id="const-meter-el"></span> meters = <span id="meter-to-feet-el"></span> feet |
-        <span id="const-feet-el"></span> feet = <span id="feet-to-meter-el"></span> meters
-      </p>
-      <h2>Volume (Liters/Galleon)</h2>
-      <p>
-        <span id="const-liters-el"></span> liters = <span id="liters-to-gallons-el"></span> gallons |
-        <span id="const-gallons-el"></span> gallons = <span id="gallons-to-liters-el"></span> liters
-      </p>
-      <h2>Mass (Kilograms/Pounds)</h2>
-      <p></p>
-    </section>
-    <script src="./index.js"></script>
+    <div class="container">
+      <section class="input-section">
+          <h1>Metric/Imperial unit conversion</h1>
+          <span id="count-el">20</span>
+      </section>
+      <section>
+        <h2>Length (Meter/feet)</h2>
+        <p>
+          <span id="const-meter-el"></span> meters = <span id="meter-to-feet-el"></span> feet |
+          <span id="const-feet-el"></span> feet = <span id="feet-to-meter-el"></span> meters
+        </p>
+        <h2>Volume (Liters/Galleon)</h2>
+        <p>
+          <span id="const-liters-el"></span> liters = <span id="liters-to-gallons-el"></span> gallons |
+          <span id="const-gallons-el"></span> gallons = <span id="gallons-to-liters-el"></span> liters
+        </p>
+        <h2>Mass (Kilograms/Pounds)</h2>
+        <p>
+          <span id="const-kg-el"></span> kilos = <span id="kg-to-pounds-el"></span> pounds |
+          <span id="const-pounds-el"></span> pounds = <span id="pounds-to-kg-el"></span> 
+        </p>
+      </section>
+      <script src="./index.js"></script>
+    </div>
   </body>
 </html>
